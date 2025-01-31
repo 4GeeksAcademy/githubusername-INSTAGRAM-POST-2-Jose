@@ -7,11 +7,11 @@ body {
     border-radius: 10px;
     background: white;
     width: 400px;
-    height: 650px;
+    overflow: hidden;
 }
 .encabezado {
     margin: 0;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
    justify-content: space-between;
    width: 400px;
@@ -22,6 +22,7 @@ body {
     align-items: center;
     margin: 5px;
 }
+
 .info-user p {
     margin: 5px;
 }
@@ -41,8 +42,11 @@ body {
     justify-content: space-between;
     align-items: center;
     display: flex;
-   width: 400px;
    height: 50px;
+}
+
+.safe {
+    margin-right: 15px;
 }
 .descripcion {
     width: 400px;
